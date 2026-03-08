@@ -4,26 +4,26 @@
 class Openusage < Formula
   desc "Monitor your AI coding tool quotas from a single TUI dashboard"
   homepage "https://github.com/janekbaraniewski/openusage"
-  version "0.6.10"
+  version "0.6.11"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/janekbaraniewski/openusage/releases/download/v0.6.10/openusage_0.6.10_darwin_arm64.tar.gz"
-      sha256 "fd1c80d24a7d501cd7df7b1ec506b378cfe0a92da80581a06a58d532e543d44b"
+      url "https://github.com/janekbaraniewski/openusage/releases/download/v0.6.11/openusage_0.6.11_darwin_arm64.tar.gz"
+      sha256 "6f9b96ac69a3f9b0d2e36bdc365bae81d882c06a16da8383940f96667072d5ce"
     else
-      url "https://github.com/janekbaraniewski/openusage/releases/download/v0.6.10/openusage_0.6.10_darwin_amd64.tar.gz"
-      sha256 "1ba6a122b480d6c69de9b023af563379b820d8f47019827429beb62d4f7e2444"
+      url "https://github.com/janekbaraniewski/openusage/releases/download/v0.6.11/openusage_0.6.11_darwin_amd64.tar.gz"
+      sha256 "7d01978a9f514b5ebf25fd8f0bc007dee8981563dc8ad483addc247910a4ecb1"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/janekbaraniewski/openusage/releases/download/v0.6.10/openusage_0.6.10_linux_arm64.tar.gz"
-      sha256 "4832fd5fd8c7bdaa6f9eaecac5d49b8ae0580c33474a6787f13d2039f43145f6"
+      url "https://github.com/janekbaraniewski/openusage/releases/download/v0.6.11/openusage_0.6.11_linux_arm64.tar.gz"
+      sha256 "7856d10a71146acccb8ce801da6dd2d665be5e8f1653b0185ecac4e38ffd9e01"
     else
-      url "https://github.com/janekbaraniewski/openusage/releases/download/v0.6.10/openusage_0.6.10_linux_amd64.tar.gz"
-      sha256 "eeccacaf9cee3f0e6b26b0e1d209ed16ed868cee80c924b6177cab597d447bcb"
+      url "https://github.com/janekbaraniewski/openusage/releases/download/v0.6.11/openusage_0.6.11_linux_amd64.tar.gz"
+      sha256 "249d376895f45669e948904184d497fabfdce38dc8087d765aa27fb3458d0210"
     end
   end
 
