@@ -10,20 +10,20 @@ class Openusage < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/janekbaraniewski/openusage/releases/download/v0.6.12/openusage_0.6.12_darwin_arm64.tar.gz"
-      sha256 "1f98029cb4f68f730732736d50324ab14881e505c2f9562b8b7ba6ac0cebbc60"
+      sha256 "65ee8590352fdd4f05486662686f50d636515ad3f22bf155f95bdfd9fbcdfbd4"
     else
       url "https://github.com/janekbaraniewski/openusage/releases/download/v0.6.12/openusage_0.6.12_darwin_amd64.tar.gz"
-      sha256 "8ea4f239e3818f25c401de195340afc89a9c14a6e002611673c43e9ccb7403d3"
+      sha256 "6f6a1a16dca737ba14febc1af71f38d2ed327360de5fa140a99d9e3f55cd9179"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/janekbaraniewski/openusage/releases/download/v0.6.12/openusage_0.6.12_linux_arm64.tar.gz"
-      sha256 "61e4207f75aa7de8e242806cc843dbab5ad69d05082ec8cfadc582debe63c21f"
+      sha256 "537ed6281b28374fe800cfbf17e5635688f2aacc31123f368e9c6428bfa7e6ec"
     else
       url "https://github.com/janekbaraniewski/openusage/releases/download/v0.6.12/openusage_0.6.12_linux_amd64.tar.gz"
-      sha256 "19e3cd69edca63effd07da172bff65e838d2983271608a3cb05d0a14ac2088ec"
+      sha256 "ed94431a84efa55f8881d06c3e9c4ff335b65af531c9372e6bff02d07698e454"
     end
   end
 
