@@ -5,21 +5,21 @@
 class Handover < Formula
   desc "Repo-local handover orchestration for coding agents"
   homepage "https://handover.openusage.sh/"
-  version "0.1.1"
+  version "0.1.2"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/janekbaraniewski/handover/releases/download/v0.1.1/handover_0.1.1_darwin_x86_64.tar.gz"
-      sha256 "f2ccc99e6ed379dffa1f6b9f1b9bea5305210fc0244d13973fe91da1da3324c2"
+      url "https://github.com/janekbaraniewski/handover/releases/download/v0.1.2/handover_0.1.2_darwin_x86_64.tar.gz"
+      sha256 "7d4b5769ca93597d82f0465e0d23de9a70dc9d591341fbc6e912a8ba58eaf36f"
 
       define_method(:install) do
         bin.install "handover"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/janekbaraniewski/handover/releases/download/v0.1.1/handover_0.1.1_darwin_arm64.tar.gz"
-      sha256 "e477d11f6e9d0631ab0005a277ff2928c37935151d0bbca649b1d2b6e22aee0e"
+      url "https://github.com/janekbaraniewski/handover/releases/download/v0.1.2/handover_0.1.2_darwin_arm64.tar.gz"
+      sha256 "cd072a3fa8479a8bb344811cf98ec2afaa8a784be9415c3e19e68086c9efe890"
 
       define_method(:install) do
         bin.install "handover"
@@ -29,15 +29,15 @@ class Handover < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/janekbaraniewski/handover/releases/download/v0.1.1/handover_0.1.1_linux_x86_64.tar.gz"
-      sha256 "2301fbc7493549d56bd566a0cc68bd0962cf6624dc7bca412bad06874c269208"
+      url "https://github.com/janekbaraniewski/handover/releases/download/v0.1.2/handover_0.1.2_linux_x86_64.tar.gz"
+      sha256 "7e54d49b99814298df7deecf0c8a4d9d0f8d222d5c452fb7fb78c7d61bff6764"
       define_method(:install) do
         bin.install "handover"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/janekbaraniewski/handover/releases/download/v0.1.1/handover_0.1.1_linux_arm64.tar.gz"
-      sha256 "a7b8bf45b5c36c409399a3dcd3af9da953cdfddccdc3185089ff75178921eeb0"
+      url "https://github.com/janekbaraniewski/handover/releases/download/v0.1.2/handover_0.1.2_linux_arm64.tar.gz"
+      sha256 "bafbd393afc242efb36a52d23f4975fa624dce64bcb6d7883c34fb14769e3eac"
       define_method(:install) do
         bin.install "handover"
       end
