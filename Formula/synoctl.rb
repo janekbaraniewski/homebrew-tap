@@ -4,26 +4,26 @@
 class Synoctl < Formula
   desc "A TUI-first management tool for Synology DSM"
   homepage "https://github.com/janekbaraniewski/synoctl"
-  version "0.2.9"
+  version "0.2.10"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/janekbaraniewski/synoctl/releases/download/v0.2.9/synoctl_0.2.9_darwin_arm64.tar.gz"
-      sha256 "85672bb4b838fdc4cf30689dbccb8accd1721bc7485a0a8d336e3ab82e869762"
+      url "https://github.com/janekbaraniewski/synoctl/releases/download/v0.2.10/synoctl_0.2.10_darwin_arm64.tar.gz"
+      sha256 "7c2baf7ee97ef923ea6f16b39b5100fe369cc17afcc7fae7799e8cbd6caddddc"
     else
-      url "https://github.com/janekbaraniewski/synoctl/releases/download/v0.2.9/synoctl_0.2.9_darwin_amd64.tar.gz"
-      sha256 "47c78c2c3b7c5410e79d7070aeadd711636afb54b5730c724eacbf6187108d99"
+      url "https://github.com/janekbaraniewski/synoctl/releases/download/v0.2.10/synoctl_0.2.10_darwin_amd64.tar.gz"
+      sha256 "9c76dd2f9dbf68893e94d168284fc07db833b81d79cc80b40c6b09f0521eae40"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/janekbaraniewski/synoctl/releases/download/v0.2.9/synoctl_0.2.9_linux_arm64.tar.gz"
-      sha256 "2ad34cd950c238a7bc8d4e2fe332bf574f64ea6c72ce228ff2777ac2c5ddd379"
+      url "https://github.com/janekbaraniewski/synoctl/releases/download/v0.2.10/synoctl_0.2.10_linux_arm64.tar.gz"
+      sha256 "1fce3a3af09a038974174c2a52ca985b6ec0c602acab33400ce7e207c2de29e3"
     else
-      url "https://github.com/janekbaraniewski/synoctl/releases/download/v0.2.9/synoctl_0.2.9_linux_amd64.tar.gz"
-      sha256 "371373a91e37cb2fbe208599410074323092bf110efc04aab4121319e18a850a"
+      url "https://github.com/janekbaraniewski/synoctl/releases/download/v0.2.10/synoctl_0.2.10_linux_amd64.tar.gz"
+      sha256 "8b9d56cbb3ac7ca8c7b352df2598b9a8cd1f0eb5ecd127b1dae3a0b74ddda71f"
     end
   end
 
